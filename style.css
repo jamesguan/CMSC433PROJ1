@@ -1,0 +1,97 @@
+/*
+
+
+*/
+
+.topTitle{    
+	position: fixed;
+    background-image: url(http://thumbs.dreamstime.com/x/gold-black-circles-10809992.jpg);
+    color: white; 
+    width: 100%; 
+    //height: 1vw;
+    text-align: center;
+	font-size: 1vw;
+    //padding: 1px;
+	
+    font-weight: bold;
+    font-family:Book Antiqua;
+	z-index: 1;
+}
+
+.error {
+	
+	color: red;
+}
+
+body {
+    align: top;
+    margin: 0px;    
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=80910), auto;
+}
+
+h1 {
+    text-shadow: 0px 0px 10px rgb(0,0,0);
+}
+
+#stuff {
+	
+	position: absolute;
+	
+}
+
+.mainDiv{
+	//float: left;
+    //margin-left: vw;    
+    //width: %;
+    //height: 90%;
+    background-color: rgb(240,240,240);
+    //padding-right: 1%;
+	padding-top: 6vw;
+    padding-left: 27vw;
+	padding-right: 27vw;
+	//padding-left: 10%;
+	//padding-right: 5%;
+	z-index: 2;
+	//white-space: nowrap;
+	//overflow: hidden;
+}
+
+
+ul {
+	float: left;
+	position: fixed;
+    list-style-type: none;
+    //margin: 0;
+    padding-top: 6vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	font-size: 100%;
+    width: 25vw;
+    background-color: rgb(255,215,0);
+    height: 100%;
+    overflow: auto;
+    font-family:Helvetica;
+	max-width: 140px;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border-radius: 2px 10px;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=80909), auto;
+}
+
+li a.active {
+    background-color: green;
+    color: black;
+    
+   
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(102,204,0);
+    color: white;
+    
+}
